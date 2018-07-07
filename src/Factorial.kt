@@ -1,7 +1,11 @@
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
+// 5.factorial() = 5! = 5 * 4 * 3 * 2 * 1 = 120
+// https://en.wikipedia.org/wiki/Factorial
 fun Int.factorial(): Long = TODO()
+
+// Can I do implement it to accept `!5` as a `5.factorial()`?
 
 internal class FactorialTests {
 
