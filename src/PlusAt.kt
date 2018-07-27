@@ -1,12 +1,7 @@
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
-fun <T> List<T>.plusAt(index: Int, element: T): List<T> {
-    if(index !in 0..size) throw Error("Cannot put at index $index because size is $size")
-    val mutable = this.toMutableList()
-    mutable.add(index, element)
-    return mutable
-}
+fun <T> List<T>.plusAt(index: Int, element: T): List<T> = TODO()
 
 internal class PlusAtTests {
 
